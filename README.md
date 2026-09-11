@@ -9,6 +9,18 @@ A clean, modern, and executive Todo List application developed for **Assignment 
 
 ---
 
+## 📱 App Previews
+
+<div align="center">
+
+| **Animated Splash Screen** | **Executive Dark Todo UI** |
+|:---:|:---:|
+| <img src="assets/screenshots/splash_screen.png" width="320" alt="TaskFlow Splash Screen" /> | <img src="assets/screenshots/dark_todo_screen.png" width="320" alt="TaskFlow Dark Todo Screen" /> |
+
+</div>
+
+---
+
 ## ✨ Features
 
 - **Animated Luxury Splash Screen**: Smooth entrance animations (`FadeTransition` & `ScaleTransition`) with glowing gold branding and tap-to-skip functionality.
@@ -45,6 +57,8 @@ lib/
 └── screens/
     ├── splash_screen.dart  # Animated entrance splash screen
     └── todo_screen.dart    # Main Todo screen with pure setState() logic
+assets/
+└── screenshots/            # App preview screenshots
 test/
 └── widget_test.dart        # 7 automated tests covering all assignment requirements
 ```
